@@ -34,11 +34,17 @@
 		endif
 	endif
 -%}
-<div class="row {{ section_width }}">
+<div class="row {{ section_width }} align-center">
+	<div class="small4 columns">
+		<img src="cdn.shopify.com/s/files/1/0556/0162/7435/files/Logo_Black_20x1_crop_center.svg">
+	</div>
+	<div class="small-12 columns">
+		<img src="cdn.shopify.com/s/files/1/0556/0162/7435/files/OE-48.webp">
+	</div>
 	<div class="small-12 columns">
 		{%- for block in section.blocks -%}
 			{%- case block.type -%}
-				{%- when 'image' -%}
+				{% comment %} {%- when 'image' -%}
 					<div class="image-with-text__content__image" {{ block.shopify_attributes }}>
 						{%- if block.settings.image != blank -%}
 							{% assign image = block.settings.image %}
@@ -47,60 +53,78 @@
 						{%- else -%}
 							{{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
 						{%- endif -%}
-					</div>
+					</div> {% endcomment %}
+				{%- when 'subheading' -%}
+					<p class="subheading text-center" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+				{%- when 'heading' -%}
+					<h3 class="text-center {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.text | newline_to_br }}</h3>
+				{%- when 'text' -%}
+					<div class="rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+				{%- when 'button' -%}
+					{% if block.settings.button_text != blank %}
+						<a class="button" href="{{ block.settings.button_link }}" role="button" title="{{ block.settings.button_text | escape }}" {{ block.shopify_attributes }}><span>{{ block.settings.button_text }}</span></a>
+					{% endif %}
+				{% when 'space' %}
+			<div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
+				{% when 'collapsible_tab' %}
+					<collapsible-row class="accordion" {{ block.shopify_attributes }}>
+						<details id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+							<summary>
+								{{ block.settings.heading | default: block.settings.page.title }}
+								<span></span>
+							</summary>
+							<div class="collapsible__content accordion__content rte" id="Accordion-{{ block.id }}-{{ section.id }}">
+								{{ block.settings.content }}
+								{{ block.settings.page.content }}
+							</div>
+						</details>
+					</collapsible-row>
 			{%- endcase -%}
 		{%- endfor -%}
 	</div>
-	<!-- Full width Image -->
-	<div class="small-12 columns">
-		{%- if use_video -%}
-			{%- if video_hosted != blank -%}
-				{{ video_hosted | video_tag: autoplay: video_autoplay, loop: true, controls: video_controls, muted: video_autoplay, image_size: '690x' }}
-			{%- elsif video != blank -%}
-				{%- if video.type == 'youtube' -%}
-					<iframe data-src="https://www.youtube.com/embed/{{ video.id }}?loop=1{%- if video_autoplay -%}&autoplay=1&mute=1{%- endif -%}&playlist={{ video.id }}&iv_load_policy=3&disablekb=1&controls={{ video_controls }}&playsinline=1" frameborder="0" class="lazyload" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.heading | escape }}" tabindex="-1"></iframe>
-				{%- else -%}
-					<iframe data-src="https://player.vimeo.com/video/{{ video.id }}{%- if video_autoplay -%}?background=1{%- endif -%}" frameborder="0" class="lazyload" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.heading | escape }}" tabindex="-1"></iframe>
-				{%- endif -%}
-			{%- endif -%}
-		{%- elsif image != blank -%}
-			{%- liquid
-				assign small_height = image.src.height | times: '690' | divided_by: image.src.width
-				assign mid_height = image.src.height | times: '1340' | divided_by: image.src.width
-				assign master_width = image.src.width | append: 'x' | append: image.src.height
-				assign width = '690x' | append: small_height | append: ',' | append: '1340x' | append: mid_height | append: ',' | append: master_width
-			-%}
-			{%- render 'responsive-image', image: image, sizes: width -%}
-		{%- else -%}
-			{{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
-		{%- endif -%}
-	</div>
 
-	<!-- Text From Buidler =-->
-	<div class="small-12 columns">
-		{%- for block in section.blocks -%}
-		{%- case block.type -%}
-			{%- when 'subheading' -%}
-				<p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
-			{%- when 'heading' -%}
-				<h3 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.text | newline_to_br }}</h3>
-			{%- when 'text' -%}
-				<div class="rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
-		{%- endcase -%}
-		{%- endfor -%}
-	</div>
-	<div class="small-12 columns">
-	</div>
+
+	{% comment %} <div class="small-12 columns">
 		<div class="image-with-text grid--image-{{ desktop_image_width }} {{ desktop_layout }} {{ content_position }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--color-bg:{{ color_bg }};--color-text:{{ color_text }};--color-text-rgb: {{ color_text | color_extract: 'red' }}, {{ color_text | color_extract: 'green' }}, {{ color_text | color_extract: 'blue' }}; --solid-button-background: {{ color_text }}; --outline-button-label: {{ color_text }};--solid-button-label: {{ color_bg }};--bg-body: {{ color_bg }};--color-border: {{ color_border }}">
 			<div class="image-with-text__image image-with-text__inner">
 				<div class="image-with-text__image-media aspect-ratio aspect-ratio--{{ height }}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
-
+					{%- if use_video -%}
+						{%- if video_hosted != blank -%}
+							{{ video_hosted | video_tag: autoplay: video_autoplay, loop: true, controls: video_controls, muted: video_autoplay, image_size: '690x' }}
+						{%- elsif video != blank -%}
+							{%- if video.type == 'youtube' -%}
+								<iframe data-src="https://www.youtube.com/embed/{{ video.id }}?loop=1{%- if video_autoplay -%}&autoplay=1&mute=1{%- endif -%}&playlist={{ video.id }}&iv_load_policy=3&disablekb=1&controls={{ video_controls }}&playsinline=1" frameborder="0" class="lazyload" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.heading | escape }}" tabindex="-1"></iframe>
+							{%- else -%}
+								<iframe data-src="https://player.vimeo.com/video/{{ video.id }}{%- if video_autoplay -%}?background=1{%- endif -%}" frameborder="0" class="lazyload" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.heading | escape }}" tabindex="-1"></iframe>
+							{%- endif -%}
+						{%- endif -%}
+					{%- elsif image != blank -%}
+						{%- liquid
+							assign small_height = image.src.height | times: '690' | divided_by: image.src.width
+							assign mid_height = image.src.height | times: '1340' | divided_by: image.src.width
+							assign master_width = image.src.width | append: 'x' | append: image.src.height
+							assign width = '690x' | append: small_height | append: ',' | append: '1340x' | append: mid_height | append: ',' | append: master_width
+						-%}
+						{%- render 'responsive-image', image: image, sizes: width -%}
+					{%- else -%}
+						{{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+					{%- endif -%}
 				</div>
 			</div>
 			<div class="image-with-text__content image-with-text__inner">
 				<div class="image-with-text__content--inner">
 					{%- for block in section.blocks -%}
 						{%- case block.type -%}
+							{%- when 'image' -%}
+								<div class="image-with-text__content__image" {{ block.shopify_attributes }}>
+									{%- if block.settings.image != blank -%}
+										{% assign image = block.settings.image %}
+										{% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+										{%- render 'responsive-image', image: image, sizes: master_width, retina: block.settings.retina -%}
+									{%- else -%}
+										{{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+									{%- endif -%}
+								</div>
 							{%- when 'subheading' -%}
 								<p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
 							{%- when 'heading' -%}
@@ -131,13 +155,13 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> {% endcomment %}
 </div>
 
 {% schema %}
   {
-    "name": "Image with text holding",
-		"class": "section-image-with-text-holding",
+    "name": "Image with text",
+		"class": "section-image-with-text",
     "settings": [
 			{
 				"type": "image_picker",
@@ -287,7 +311,7 @@
         "type": "color",
         "id": "color_bg",
         "label": "Background",
-        "default": "#eeeeee"
+        "default": "#ffffff"
       },
 			{
         "type": "color",
@@ -463,7 +487,7 @@
     ],
     "presets": [
       {
-        "name": "Image with text holding",
+        "name": "Image with text",
 				"blocks": [
 					{
 						"type": "subheading"
