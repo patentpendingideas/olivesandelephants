@@ -42,16 +42,16 @@
 	</div>
 </div>
 
-<div class="row" style="max-width: 100%; padding: 0;">
+<div class="row align-center" style="max-width: 100%; padding: 0;">
 	<div class="small-12 columns" style="margin: 25px 0 0 0; min-height: 550px; background-image: url('https://cdn.shopify.com/s/files/1/0556/0162/7435/files/OE_48.webp'); background-size: cover; background-repeat: no-repeat; background-position: center center;">&nbsp;</div>
 	<div class="spacer" style="height: 25px;">&nbsp;</div>
-	<div class="small-12 columns">
+	<div class="small-11 columns">
 		{%- for block in section.blocks -%}
 			{%- case block.type -%}
 				{%- when 'subheading' -%}
 					<p class="subheading text-center" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
 				{%- when 'heading' -%}
-					<h3 class="text-center {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.text | newline_to_br }}</h3>
+					<p class="subheading text-center" {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.text | newline_to_br }}</p>
 				{%- when 'text' -%}
 					<div class="rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
 				{%- when 'button' -%}
