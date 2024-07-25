@@ -145,6 +145,7 @@
     },
     "7cf05f13-e9e0-4ee3-8558-57a388a974f0": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<hr width=\"92%\"\/>"
       }
