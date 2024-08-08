@@ -1,1 +1,119 @@
-{"sections":{"main-collection-banner":{"type":"main-collection-banner","settings":{"show_collection_image":true,"show_collection_description":false,"show_subcollections":false,"make_heading_uppercase":false,"overlay_color":"#000000","overlay_opacity":0}},"a51bae3e-cb17-4e84-ab56-5255cdf7acf2":{"type":"spacer","settings":{"spacer_mobile":50,"spacer_desktop":40,"border_separator":false,"border_separator_full":false}},"product-grid":{"type":"main-collection-product-grid","settings":{"full_width":true,"products_per_page":4,"columns_desktop":4,"pagination_type":"paginated","enable_filtering":false,"enable_sorting":false,"show_counts":false,"filter_color_swatches":false,"facets_desktop":"drawer"}},"7cf05f13-e9e0-4ee3-8558-57a388a974f0":{"type":"custom-liquid","settings":{"custom_liquid":"<hr width=\"92%\"\/>\n<br>"}},"845d262e-2868-41a4-93b5-d29984c50eab":{"type":"text-with-icons","blocks":{"template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-0":{"type":"icon","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Icon-NonToxic.png","heading":"NON-TOXIC","text":"<p>By opting for non-toxic candles, you prioritize your health and the environment.<\/p>"}},"template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-1":{"type":"icon","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Icon-CrueltyFree.png","heading":"CRUELTY FREE","text":"<p>Have a deep assurance that no animal life was sacrificed for the making of the product.<\/p>"}},"template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-2":{"type":"icon","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Icon-Recycle.png","heading":"REPURPOSE & RECYCLE","text":"<p>Our brass vessels are designed to be repurposed to reduce waste and enhance durability.<\/p>"}},"0a7ccfad-7f51-4c23-a025-7cb0a1669a39":{"type":"icon","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Icon-LastingBurn.png","heading":"LONG LASTING BURN","text":"<p>Our all natural soy wax creates a slow burning candle that lasts longer than a typical candle.<\/p>"}}},"block_order":["template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-0","template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-1","template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-2","0a7ccfad-7f51-4c23-a025-7cb0a1669a39"],"settings":{"text_alignment":"left","icon_position":"left","icon_size":"small","heading_size":"medium","mobile_swipe":true,"color_bg":"rgba(0,0,0,0)","color_heading":"#515151","color_text":"#515151","disable_top_spacing":true,"disable_bottom_spacing":false}}},"order":["main-collection-banner","a51bae3e-cb17-4e84-ab56-5255cdf7acf2","product-grid","7cf05f13-e9e0-4ee3-8558-57a388a974f0","845d262e-2868-41a4-93b5-d29984c50eab"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": false,
+        "show_subcollections": false,
+        "make_heading_uppercase": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "a51bae3e-cb17-4e84-ab56-5255cdf7acf2": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "full_width": true,
+        "products_per_page": 4,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "show_counts": false,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "7cf05f13-e9e0-4ee3-8558-57a388a974f0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr width=\"92%\"\/>\n<br>"
+      }
+    },
+    "845d262e-2868-41a4-93b5-d29984c50eab": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Icon-NonToxic.png",
+            "heading": "NON-TOXIC",
+            "text": "<p>By opting for non-toxic candles, you prioritize your health and the environment.<\/p>"
+          }
+        },
+        "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Icon-CrueltyFree.png",
+            "heading": "CRUELTY FREE",
+            "text": "<p>Have a deep assurance that no animal life was sacrificed for the making of the product.<\/p>"
+          }
+        },
+        "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Icon-Recycle.png",
+            "heading": "REPURPOSE & RECYCLE",
+            "text": "<p>Our brass vessels are designed to be repurposed to reduce waste and enhance durability.<\/p>"
+          }
+        },
+        "0a7ccfad-7f51-4c23-a025-7cb0a1669a39": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Icon-LastingBurn.png",
+            "heading": "LONG LASTING BURN",
+            "text": "<p>Our all natural soy wax creates a slow burning candle that lasts longer than a typical candle.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-0",
+        "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-1",
+        "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-2",
+        "0a7ccfad-7f51-4c23-a025-7cb0a1669a39"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#515151",
+        "color_text": "#515151",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "a51bae3e-cb17-4e84-ab56-5255cdf7acf2",
+    "product-grid",
+    "7cf05f13-e9e0-4ee3-8558-57a388a974f0",
+    "845d262e-2868-41a4-93b5-d29984c50eab"
+  ]
+}
