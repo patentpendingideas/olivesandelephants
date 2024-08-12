@@ -1,1 +1,82 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"1a18669b-44b4-46f1-b55c-778493b176ec":{"type":"text","settings":{"icon":"none","text":"FREE DOMESTIC SHIPPING ON ORDERS $150+","link":""}}},"block_order":["1a18669b-44b4-46f1-b55c-778493b176ec"],"settings":{"announcement_bar":true,"announcement_bar_homepage_only":false,"announcement_bar_layout":"carousel","direction":"left","speed":"10s"}},"header":{"type":"header","blocks":{"17a7b74a-d172-4fdf-a43f-15b6ffd6d57a":{"type":"megamenu","settings":{"position":"1","promo_1_image":"shopify:\/\/shop_images\/MegaMenu_1_1000x829_fcd02dc0-ab32-4dbe-b134-3275bfda6163.jpg","promo_1_heading":"","promo_1_link_label":"SHOP +","promo_1_link":"shopify:\/\/products\/out-east-candle","promo_2_image":"shopify:\/\/shop_images\/MegaMenu_2.jpg","promo_2_heading":"","promo_2_link_label":"SHOP +","promo_2_link":"shopify:\/\/collections\/our-candles"}}},"block_order":["17a7b74a-d172-4fdf-a43f-15b6ffd6d57a"],"settings":{"sticky_header":true,"logo":"shopify:\/\/shop_images\/Logo_Black.svg","logo_height_range":20,"logo_height_range_mobile":25,"style":"style3","header_shadow":"header--shadow-none","menu":"main-menu","transparent_header":true,"logo_light":"shopify:\/\/shop_images\/Logo_White.svg","show_language_switcher":false,"show_currency_switcher":false,"mobile_secondary_menu":"","mobile_promo_image":"shopify:\/\/shop_images\/MegaMenu_1_1000x829_fcd02dc0-ab32-4dbe-b134-3275bfda6163.jpg","mobile_promo_heading":"","mobile_promo_link_label":"SHOP NOW +","mobile_promo_link":"shopify:\/\/collections\/our-candles"}}},"order":["announcement-bar","header"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "1a18669b-44b4-46f1-b55c-778493b176ec": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "FREE DOMESTIC SHIPPING ON ORDERS $100+",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1a18669b-44b4-46f1-b55c-778493b176ec"
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "carousel",
+        "direction": "left",
+        "speed": "10s"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "17a7b74a-d172-4fdf-a43f-15b6ffd6d57a": {
+          "type": "megamenu",
+          "settings": {
+            "position": "1",
+            "promo_1_image": "shopify:\/\/shop_images\/MegaMenu_1_1000x829_fcd02dc0-ab32-4dbe-b134-3275bfda6163.jpg",
+            "promo_1_heading": "",
+            "promo_1_link_label": "SHOP +",
+            "promo_1_link": "shopify:\/\/products\/out-east-candle",
+            "promo_2_image": "shopify:\/\/shop_images\/MegaMenu_2.jpg",
+            "promo_2_heading": "",
+            "promo_2_link_label": "SHOP +",
+            "promo_2_link": "shopify:\/\/collections\/our-candles"
+          }
+        }
+      },
+      "block_order": [
+        "17a7b74a-d172-4fdf-a43f-15b6ffd6d57a"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "logo": "shopify:\/\/shop_images\/Logo_Black.svg",
+        "logo_height_range": 20,
+        "logo_height_range_mobile": 25,
+        "style": "style3",
+        "header_shadow": "header--shadow-none",
+        "menu": "main-menu",
+        "transparent_header": true,
+        "logo_light": "shopify:\/\/shop_images\/Logo_White.svg",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "mobile_secondary_menu": "",
+        "mobile_promo_image": "shopify:\/\/shop_images\/MegaMenu_1_1000x829_fcd02dc0-ab32-4dbe-b134-3275bfda6163.jpg",
+        "mobile_promo_heading": "",
+        "mobile_promo_link_label": "SHOP NOW +",
+        "mobile_promo_link": "shopify:\/\/collections\/our-candles"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
