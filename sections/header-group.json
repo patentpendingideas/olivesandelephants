@@ -53,6 +53,7 @@
         },
         "megamenu_RtxDWz": {
           "type": "megamenu",
+          "disabled": true,
           "settings": {
             "position": "1",
             "promo_1_image": "shopify:\/\/shop_images\/Lost-Souk_1500x2035_1.jpg",
