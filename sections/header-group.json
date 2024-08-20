@@ -53,6 +53,7 @@
         },
         "megamenu_RtxDWz": {
           "type": "megamenu",
+          "disabled": true,
           "settings": {
             "position": "1",
             "promo_1_heading": "Promotion heading",
