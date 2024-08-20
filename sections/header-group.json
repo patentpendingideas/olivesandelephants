@@ -53,12 +53,12 @@
         },
         "megamenu_RtxDWz": {
           "type": "megamenu",
-          "disabled": true,
           "settings": {
             "position": "1",
-            "promo_1_heading": "Promotion heading",
+            "promo_1_image": "shopify:\/\/shop_images\/Lost-Souk_1500x2035_1.jpg",
+            "promo_1_heading": "Lost Souk",
             "promo_1_link_label": "Shop",
-            "promo_1_link": "",
+            "promo_1_link": "shopify:\/\/products\/lost-souk-candle",
             "promo_2_heading": "Promotion heading",
             "promo_2_link_label": "Shop",
             "promo_2_link": ""
