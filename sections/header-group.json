@@ -41,19 +41,32 @@
           "type": "megamenu",
           "settings": {
             "position": "1",
-            "promo_1_image": "shopify:\/\/shop_images\/MegaMenu_1_1000x829_fcd02dc0-ab32-4dbe-b134-3275bfda6163.jpg",
+            "promo_1_image": "shopify:\/\/shop_images\/Ancient-Minerals_1500x2035_1.jpg",
             "promo_1_heading": "",
             "promo_1_link_label": "SHOP +",
-            "promo_1_link": "shopify:\/\/products\/out-east-candle",
+            "promo_1_link": "shopify:\/\/products\/ancient-minerals-candle",
             "promo_2_image": "shopify:\/\/shop_images\/MegaMenu_2.jpg",
             "promo_2_heading": "",
             "promo_2_link_label": "SHOP +",
             "promo_2_link": "shopify:\/\/collections\/our-candles"
           }
+        },
+        "megamenu_RtxDWz": {
+          "type": "megamenu",
+          "settings": {
+            "position": "1",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": ""
+          }
         }
       },
       "block_order": [
-        "17a7b74a-d172-4fdf-a43f-15b6ffd6d57a"
+        "17a7b74a-d172-4fdf-a43f-15b6ffd6d57a",
+        "megamenu_RtxDWz"
       ],
       "settings": {
         "sticky_header": true,
