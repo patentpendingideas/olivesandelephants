@@ -39,6 +39,7 @@
       "blocks": {
         "17a7b74a-d172-4fdf-a43f-15b6ffd6d57a": {
           "type": "megamenu",
+          "disabled": true,
           "settings": {
             "position": "1",
             "promo_1_image": "shopify:\/\/shop_images\/Ancient-Minerals_1500x2035_1.jpg",
@@ -53,13 +54,12 @@
         },
         "megamenu_RtxDWz": {
           "type": "megamenu",
-          "disabled": true,
           "settings": {
             "position": "1",
             "promo_1_image": "shopify:\/\/shop_images\/Lost-Souk_1500x2035_1.jpg",
             "promo_1_heading": "Lost Souk",
             "promo_1_link_label": "Shop",
-            "promo_1_link": "shopify:\/\/products\/lost-souk-candle",
+            "promo_1_link": "shopify:\/\/collections\/our-candles",
             "promo_2_heading": "Promotion heading",
             "promo_2_link_label": "Shop",
             "promo_2_link": ""
