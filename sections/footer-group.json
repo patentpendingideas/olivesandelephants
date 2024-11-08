@@ -1,1 +1,75 @@
-{"type":"header","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"e9bfbc11-abdf-4291-b821-b57f5c59d29b":{"type":"text","settings":{"column_size":"large","title":"","image":"shopify:\/\/shop_images\/Logo-White_400x45_de714bf8-4712-4e5d-b25c-60f8c653071a.png","text":"<p>concierge@olivesandelephants.co<br\/>East Hampton, NY<\/p>","text_size":"small","button_text":"","button_link":"","show_social_links":true}},"a09a8a35-bedc-4119-aa04-3ce886faba9d":{"type":"menu","settings":{"column_size":"medium","title":"BRAND","menu":"footer-menu-2"}},"12ccd307-dc41-444f-b610-ec4d6c6f0c49":{"type":"menu","settings":{"column_size":"medium","title":"HELP","menu":"footer"}},"efdc5a9e-c62c-4d9c-a086-2d82ff52053e":{"type":"signup","settings":{"column_size":"large","title":"","text":"<p>Sign up for our newsletter for the latest updates!<\/p>"}}},"block_order":["e9bfbc11-abdf-4291-b821-b57f5c59d29b","a09a8a35-bedc-4119-aa04-3ce886faba9d","12ccd307-dc41-444f-b610-ec4d6c6f0c49","efdc5a9e-c62c-4d9c-a086-2d82ff52053e"],"custom_css":[],"settings":{"full_width":true,"copyright_text":"All rights reserved.","show_language_switcher":false,"show_currency_switcher":false,"show_payment_icons":false,"enable_follow_on_shop":true}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "e9bfbc11-abdf-4291-b821-b57f5c59d29b": {
+          "type": "text",
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "image": "shopify://shop_images/Logo-White_400x45_de714bf8-4712-4e5d-b25c-60f8c653071a.png",
+            "text": "<p><a href=\"mailto:concierge@olivesandelephants.co\" title=\"mailto:concierge@olivesandelephants.co\">concierge@olivesandelephants.co</a><br/>East Hampton, NY</p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": true
+          }
+        },
+        "a09a8a35-bedc-4119-aa04-3ce886faba9d": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "BRAND",
+            "menu": "footer-menu-2"
+          }
+        },
+        "12ccd307-dc41-444f-b610-ec4d6c6f0c49": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "HELP",
+            "menu": "footer"
+          }
+        },
+        "efdc5a9e-c62c-4d9c-a086-2d82ff52053e": {
+          "type": "signup",
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "text": "<p>Sign up for our newsletter for the latest updates!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "e9bfbc11-abdf-4291-b821-b57f5c59d29b",
+        "a09a8a35-bedc-4119-aa04-3ce886faba9d",
+        "12ccd307-dc41-444f-b610-ec4d6c6f0c49",
+        "efdc5a9e-c62c-4d9c-a086-2d82ff52053e"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "show_payment_icons": false,
+        "enable_follow_on_shop": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
