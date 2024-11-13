@@ -48,7 +48,7 @@
 			{%- endif -%}
 
 			{%- if settings.enable_quick_view -%}
-			<quick-view class="product-card-quickview" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
+			<quick-view data-spark="b2c-only" class="product-card-quickview" href="#Product-Drawer" data-product-handle="{{ product_card_product.handle }}" tabindex="-1">
 				<div class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</div>
 				<span>{{ 'products.product.quick_view' | t }}</span>
 			</quick-view>
@@ -74,9 +74,10 @@
 		{%- if settings.show_products_rating and product_card_product.metafields.reviews.rating.value != blank -%}
 		<div class="star-rating" style="--star-rating: {{ product_card_product.metafields.reviews.rating.value.rating }};"></div>
 		{%- endif -%}
+      <spark-product-card parent-id="{{ product.id }}"></spark-product-card>
 		{%- if settings.enable_quick_add -%}
 			{% if is_purchasable %}
-				<button class="product-card--add-to-cart-button product-card--add-to-cart-button-simple button outline" data-product-id="{{ product_card_product.selected_or_first_available_variant.id }}" tabindex="-1" {% if product_card_product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
+				<button data-spark="b2c-only" class="product-card--add-to-cart-button product-card--add-to-cart-button-simple button outline" data-product-id="{{ product_card_product.selected_or_first_available_variant.id }}" tabindex="-1" {% if product_card_product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
 					<span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span>
 					<span class="product-card--add-to-cart-text">
 						{%- if product_card_product.selected_or_first_available_variant.available -%}
@@ -115,8 +116,9 @@
 		{%- if settings.show_products_rating and product_card_product.metafields.reviews.rating.value != blank -%}
 		<div class="star-rating" style="--star-rating: 5;"></div>
 		{%- endif -%}
+      <spark-product-card parent-id="{{ product.id }}"></spark-product-card>
 		{%- if settings.enable_quick_add -%}
-			<quick-view class="product-card--add-to-cart-button button outline" data-product-handle="" tabindex="-1" disabled>
+			<quick-view data-spark="b2c-only" class="product-card--add-to-cart-button button outline" data-product-handle="" tabindex="-1" disabled>
 				<span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span>
 				<span class="product-card--add-to-cart-text">{{ 'products.product.choose_options' | t }}</span>
 			</quick-view>
