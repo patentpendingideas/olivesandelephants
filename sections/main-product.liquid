@@ -214,13 +214,14 @@
 							{%- when 'title' -%}
 								<div class="product-title-container" {{ block.shopify_attributes }}>
 					      	<h1 class="product-title uppercase--{{ block.settings.uppercase }}">{{ product.title }}</h1>
-									<div class="product-price-container">
+                                  <spark-pdp parent-id="{{ product.id }}"></spark-pdp>
+									<div data-spark="b2c-only" class="product-price-container">
 										<div class="no-js-hidden" id="price-{{ section.id }}">
 											{% render 'product-price', product: product, use_variant: true, show_badges: true %}
 										</div>
 										{%- if section.settings.show_taxes_included != blank -%}
 											{%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-					              <div class="product__tax caption">
+					              <div data-spark="b2c-only" class="product__tax caption">
 					                {%- if cart.taxes_included -%}
 					                  {{ 'products.product.include_taxes' | t }}
 					                {%- endif -%}
@@ -241,11 +242,13 @@
 							{%- when 'description' -%}
 				      	<div class="product-short-description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
 							{%- when 'inventory_level' -%}
+                              <div data-spark="b2c-only">
 								{% render 'product-inventory-notice', product: product, section: section, block: block %}
+                              </div>
 							{%- when 'variant_picker' -%}
 								{%- unless product.has_only_default_variant -%}
 								{%- assign is_disabled = block.settings.variant_is_disabled -%}
-								<variant-selects id="variant-selects-{{ section.id }}" class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" data-is-disabled="{{ is_disabled }}">
+								<variant-selects data-spark="b2c-only" id="variant-selects-{{ section.id }}" class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" data-is-disabled="{{ is_disabled }}">
 									<div class="variations" {{ block.shopify_attributes }}>
 										{%- for option in product.options_with_values -%}
 											{%- liquid
@@ -299,7 +302,7 @@
 									</script>
 								</variant-selects>
 								{%- endunless -%}
-								<noscript class="product-form__noscript-wrapper-{{ section.id }}">
+								<noscript data-spark="b2c-only" class="product-form__noscript-wrapper-{{ section.id }}">
 									<div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
 										<label for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
 										<div class="select">
@@ -335,8 +338,10 @@
 									{%- endif -%}
 								</side-panel-links>
 							{%- when 'buy_buttons' -%}
+                              <div data-spark="b2c-only">
 								 {% render 'product-add-to-cart', product: product, form: form, product_form_id: product_form_id, block: block, pickup: true %}
-							{%- when 'share' -%}
+                              </div>
+                            {%- when 'share' -%}
 				      	 {% render 'social-share', share_label: false, share_title: product.title, share_permalink: product.url, share_image: product.featured_image %}
 							{%- when 'collapsible_tab' -%}
 		            <collapsible-row class="product__accordion accordion" {{ block.shopify_attributes }}>
