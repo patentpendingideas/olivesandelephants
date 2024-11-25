@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "FREE DOMESTIC SHIPPING ON ALL ORDERS",
+            "text": "USE PROMO CODE BLACKFRIDAY TO SAVE 30%",
             "link": ""
           }
         }
@@ -41,24 +41,24 @@
           "type": "megamenu",
           "settings": {
             "position": "1",
-            "promo_1_image": "shopify:\/\/shop_images\/oande_threeCandles.jpg",
+            "promo_1_image": "shopify://shop_images/oande_threeCandles.jpg",
             "promo_1_heading": "SHOP THE COLLECTION",
             "promo_1_link_label": "Ancient Minerals",
-            "promo_1_link": "shopify:\/\/products\/ancient-minerals-candle",
-            "promo_2_image": "shopify:\/\/shop_images\/Hippie-Sunsets_1500x2035_4.jpg",
+            "promo_1_link": "shopify://products/ancient-minerals-candle",
+            "promo_2_image": "shopify://shop_images/Hippie-Sunsets_1500x2035_4.jpg",
             "promo_2_heading": "",
             "promo_2_link_label": "Hippe Sunsets",
-            "promo_2_link": "shopify:\/\/products\/hippie-sunsets-candle"
+            "promo_2_link": "shopify://products/hippie-sunsets-candle"
           }
         },
         "megamenu_RtxDWz": {
           "type": "megamenu",
           "settings": {
             "position": "1",
-            "promo_1_image": "shopify:\/\/shop_images\/oande_threeCandles.jpg",
+            "promo_1_image": "shopify://shop_images/oande_threeCandles.jpg",
             "promo_1_heading": "SHOP THE COLLECTION",
             "promo_1_link_label": "Shop",
-            "promo_1_link": "shopify:\/\/collections\/our-candles",
+            "promo_1_link": "shopify://collections/our-candles",
             "promo_2_heading": "Promotion heading",
             "promo_2_link_label": "Shop",
             "promo_2_link": ""
@@ -71,21 +71,21 @@
       ],
       "settings": {
         "sticky_header": true,
-        "logo": "shopify:\/\/shop_images\/Logo_Black.svg",
+        "logo": "shopify://shop_images/Logo_Black.svg",
         "logo_height_range": 20,
         "logo_height_range_mobile": 25,
         "style": "style3",
         "header_shadow": "header--shadow-none",
         "menu": "main-menu",
         "transparent_header": true,
-        "logo_light": "shopify:\/\/shop_images\/Logo_White.svg",
+        "logo_light": "shopify://shop_images/Logo_White.svg",
         "show_language_switcher": false,
         "show_currency_switcher": false,
         "mobile_secondary_menu": "",
-        "mobile_promo_image": "shopify:\/\/shop_images\/oande_threeCandles.jpg",
+        "mobile_promo_image": "shopify://shop_images/oande_threeCandles.jpg",
         "mobile_promo_heading": "",
         "mobile_promo_link_label": "SHOP THE COLLECTION",
-        "mobile_promo_link": "shopify:\/\/collections\/our-candles"
+        "mobile_promo_link": "shopify://collections/our-candles"
       }
     }
   },
