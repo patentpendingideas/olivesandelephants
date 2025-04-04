@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16479477632637c9a7": {
@@ -15,8 +15,8 @@
         "164794776393e76b8e-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hero-Cover_3000x1643_0dfc5b4f-4603-4af7-b422-f7e361860aa9.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/HP-Hero_Mobile_200x3435_dc6e738c-91d6-4429-b0ca-3847525e60c6.jpg",
+            "image": "shopify://shop_images/Hero-Cover_3000x1643_0dfc5b4f-4603-4af7-b422-f7e361860aa9.jpg",
+            "mobile_image": "shopify://shop_images/HP-Hero_Mobile_200x3435_dc6e738c-91d6-4429-b0ca-3847525e60c6.jpg",
             "slide_link": "",
             "video_background": true,
             "video": "",
@@ -32,7 +32,7 @@
             "overlay_opacity": 0,
             "overlay_gradient": "",
             "button_1_text": "SHOP THE COLLECTION +",
-            "button_1_link": "shopify:\/\/collections\/our-candles",
+            "button_1_link": "shopify://collections/our-candles",
             "button_1_outline": true,
             "button_2_text": "",
             "button_2_link": "",
@@ -68,7 +68,7 @@
           "type": "text-button",
           "settings": {
             "link_label": "DISCOVER +",
-            "link": "shopify:\/\/pages\/about"
+            "link": "shopify://pages/about"
           }
         }
       },
@@ -76,9 +76,7 @@
         "ff57fb9d-ffdb-4d9e-a0f0-aaefc4fb7e4e",
         "4e8087cd-8067-4907-9f4e-14892cbf725d"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "section_width": "grid",
         "text_width": "large",
@@ -104,14 +102,14 @@
         "template--19251812598059__3e648861-5fa2-4d62-9336-829639d9f4e1-1685038542fc75836d-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Our candles transport you to the far corners of the world. From the vibrant streets of Marrakech to the hypnotic shores of Ibiza, let our candles kindle your wanderlust.<\/p>"
+            "text": "<p>Our candles transport you to the far corners of the world. From the vibrant streets of Marrakech to the hypnotic shores of Ibiza, let our candles kindle your wanderlust.</p>"
           }
         },
         "c6010bbd-4081-4669-9328-81eee0ea5e5a": {
           "type": "button",
           "settings": {
             "button_text": "Explore +",
-            "button_link": "shopify:\/\/collections\/our-candles"
+            "button_link": "shopify://collections/our-candles"
           }
         }
       },
@@ -121,9 +119,9 @@
         "c6010bbd-4081-4669-9328-81eee0ea5e5a"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image2_2000x1218_92bb896f-2665-4855-86d1-855555ad3ca2.jpg",
+        "image": "shopify://shop_images/Image2_2000x1218_92bb896f-2665-4855-86d1-855555ad3ca2.jpg",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": false,
         "video_controls": false,
         "height": "adapt",
@@ -151,14 +149,14 @@
         "a2dadfe6-f0e4-44e7-973f-704dcf10ea6a": {
           "type": "text",
           "settings": {
-            "text": "<p>All candles are hand poured in small batches into sustainable custom brass vessels designed to be repurposed and cherished for years to come. Our hope is to leave a positive impact on both people and planet.<\/p>"
+            "text": "<p>All candles are hand poured in small batches into sustainable custom brass vessels designed to be repurposed and cherished for years to come. Our hope is to leave a positive impact on both people and planet.</p>"
           }
         },
         "b70e8d51-ac86-4d57-8ff2-82e58c961eb9": {
           "type": "button",
           "settings": {
             "button_text": "Learn More +",
-            "button_link": "shopify:\/\/pages\/our-values"
+            "button_link": "shopify://pages/our-values"
           }
         }
       },
@@ -168,9 +166,9 @@
         "b70e8d51-ac86-4d57-8ff2-82e58c961eb9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image1_2000x1218_17ddd433-53ed-4f04-9876-279806a8f601.jpg",
+        "image": "shopify://shop_images/Image1_2000x1218_17ddd433-53ed-4f04-9876-279806a8f601.jpg",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": false,
         "video_controls": false,
         "height": "adapt",
@@ -190,11 +188,11 @@
       "settings": {
         "heading": "Our Candles",
         "heading_left": false,
-        "description": "<p>Explore our signature collection.<\/p>",
+        "description": "<p>Explore our signature collection.</p>",
         "full_width": true,
         "collection": "our-candles",
         "display_type": "grid",
-        "product_limit": 4,
+        "product_limit": 5,
         "columns_desktop": 4,
         "show_view_all": true,
         "mobile_swipe": true,
@@ -216,7 +214,7 @@
         "template--19251812598059__a20f8031-bcd0-4f21-a399-829ff3d20648-168505356266eb74cc-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We are committed to making a positive impact on the planet and the incredible wildlife that inhabits it. That's why we have partnered with 1% for the Planet, a global organization dedicated to ensuring a thriving future for our planet and future generations.<\/p>",
+            "text": "<p>We are committed to making a positive impact on the planet and the incredible wildlife that inhabits it. That's why we have partnered with 1% for the Planet, a global organization dedicated to ensuring a thriving future for our planet and future generations.</p>",
             "description_size": "small"
           }
         },
@@ -224,7 +222,7 @@
           "type": "button",
           "settings": {
             "button_text": "Learn more +",
-            "button_link": "shopify:\/\/pages\/our-values",
+            "button_link": "shopify://pages/our-values",
             "button_outline": false
           }
         }
@@ -239,8 +237,8 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify:\/\/shop_images\/1ForPlanet_3000x1275_055efc15-9390-4cd7-ab11-2c754422659a.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1ForPlanet_Mobile_2500x2732_0051c492-b5db-4403-9d6c-7db1351ecda9.jpg",
+        "image": "shopify://shop_images/1ForPlanet_3000x1275_055efc15-9390-4cd7-ab11-2c754422659a.jpg",
+        "mobile_image": "shopify://shop_images/1ForPlanet_Mobile_2500x2732_0051c492-b5db-4403-9d6c-7db1351ecda9.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-500",
@@ -334,7 +332,7 @@
     "c693e249-e765-4d52-8b2e-b5e550cb6e8f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr width=\"92%\"\/>"
+        "custom_liquid": "<hr width=\"92%\"/>"
       }
     },
     "16620983071df6eb29": {
@@ -344,36 +342,36 @@
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-NonToxic.png",
+            "image": "shopify://shop_images/Icon-NonToxic.png",
             "heading": "NON-TOXIC",
-            "text": "<p>By opting for non-toxic candles, you prioritize your health and the environment.<\/p>"
+            "text": "<p>By opting for non-toxic candles, you prioritize your health and the environment.</p>"
           }
         },
         "1662098307788ca717-1": {
           "type": "icon",
           "settings": {
             "icon": "clipboard",
-            "image": "shopify:\/\/shop_images\/Icon-CrueltyFree.png",
+            "image": "shopify://shop_images/Icon-CrueltyFree.png",
             "heading": "CRUELTY FREE",
-            "text": "<p>Have a deep assurance that no animal life was sacrificed for the making of the product.<\/p>"
+            "text": "<p>Have a deep assurance that no animal life was sacrificed for the making of the product.</p>"
           }
         },
         "1662098307788ca717-2": {
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-Recycle.png",
+            "image": "shopify://shop_images/Icon-Recycle.png",
             "heading": "REPURPOSE & RECYCLE",
-            "text": "<p>Our brass vessels are designed to be repurposed to reduce waste and enhance durability.<\/p>"
+            "text": "<p>Our brass vessels are designed to be repurposed to reduce waste and enhance durability.</p>"
           }
         },
         "2c4a636c-cb89-4faf-82e6-13a0e7241006": {
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-LastingBurn.png",
+            "image": "shopify://shop_images/Icon-LastingBurn.png",
             "heading": "LONG LASTING BURN",
-            "text": "<p>Our all natural soy wax creates a slow burning candle that lasts longer than a typical candle.<\/p>"
+            "text": "<p>Our all natural soy wax creates a slow burning candle that lasts longer than a typical candle.</p>"
           }
         }
       },
@@ -383,9 +381,7 @@
         "1662098307788ca717-2",
         "2c4a636c-cb89-4faf-82e6-13a0e7241006"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -403,7 +399,7 @@
       "type": "email-signup",
       "settings": {
         "heading": "Unlock 15% off your first order",
-        "description": "<p>Be first to know of new launches, subscriber exclusives and other news.<\/p>",
+        "description": "<p>Be first to know of new launches, subscriber exclusives and other news.</p>",
         "color_bg": "#3a3837",
         "color_text": "#ffffff",
         "disable_top_spacing": false,
@@ -416,12 +412,12 @@
         "template--19251812598059__6009625d-c179-407a-a25b-2530aecfbda7-1685046644fe4407e1-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CTA-Block_1_2000x1702_65dfd6b8-77c8-4a6b-b9ec-4ce5b97c4c13.jpg",
+            "image": "shopify://shop_images/CTA-Block_1_2000x1702_65dfd6b8-77c8-4a6b-b9ec-4ce5b97c4c13.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "SHOP THE COLLECTION +",
-            "link": "shopify:\/\/collections\/our-candles",
+            "link": "shopify://collections/our-candles",
             "use_text_button": true,
             "block_link": ""
           }
@@ -429,12 +425,12 @@
         "template--19251812598059__6009625d-c179-407a-a25b-2530aecfbda7-1685046644fe4407e1-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CTA-Block_2_2000x1702_3c00ab70-4408-4738-a5c1-7e179b6ccfa3.jpg",
+            "image": "shopify://shop_images/CTA-Block_2_2000x1702_3c00ab70-4408-4738-a5c1-7e179b6ccfa3.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "SHOP BY SCENT +",
-            "link": "shopify:\/\/collections\/our-candles",
+            "link": "shopify://collections/our-candles",
             "use_text_button": true,
             "block_link": ""
           }
