@@ -98,7 +98,7 @@
         "image_PPEcgy"
       ],
       "settings": {
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "section_width": "full-width-row",
         "mobile_swipe": true,
         "image_ratio": "adapt",
