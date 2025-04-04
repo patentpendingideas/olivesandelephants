@@ -214,8 +214,8 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify://shop_images/AncientMinerals-Banner_3000x1035_a6f3a108-dfd1-4f4c-9875-b80412e515f7.jpg",
-        "mobile_image": "shopify://shop_images/AncientMinerals-Banner_Mobile_2500x2732_4ea3031c-e6d6-4458-bed1-27b2abcb35ef.jpg",
+        "image": "shopify://shop_images/16.png",
+        "mobile_image": "shopify://shop_images/16.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-500",
