@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main-collection-banner": {
@@ -27,12 +27,12 @@
         "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jaipur_1000x717_a9e3a50e-72a2-42cf-8c53-3c2ab61defc3.jpg",
+            "image": "shopify://shop_images/Jaipur_1000x717_a9e3a50e-72a2-42cf-8c53-3c2ab61defc3.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "Jaipur +",
-            "link": "shopify:\/\/products\/ancient-minerals-candle",
+            "link": "shopify://products/ancient-minerals-candle",
             "use_text_button": true,
             "block_link": ""
           }
@@ -40,12 +40,12 @@
         "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Scent3_1000x717_112ca8e1-683f-4f66-84c6-3c6daec23bd6.jpg",
+            "image": "shopify://shop_images/Scent3_1000x717_112ca8e1-683f-4f66-84c6-3c6daec23bd6.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "IBIZA +",
-            "link": "shopify:\/\/products\/hippie-sunsets-candle",
+            "link": "shopify://products/hippie-sunsets-candle",
             "use_text_button": true,
             "block_link": ""
           }
@@ -53,12 +53,12 @@
         "e9926ef3-5471-4e98-a35e-8b85a7088bbc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marrakesh_1000x717_3a7bf667-9d29-42c5-84de-186357023f49.jpg",
+            "image": "shopify://shop_images/Marrakesh_1000x717_3a7bf667-9d29-42c5-84de-186357023f49.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "Marrakesh +",
-            "link": "shopify:\/\/products\/lost-souk-candle",
+            "link": "shopify://products/lost-souk-candle",
             "use_text_button": true,
             "block_link": ""
           }
@@ -66,12 +66,25 @@
         "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hamptons_1000x717_cfc71c2c-6918-4330-9c04-7f462ab9a435.jpg",
+            "image": "shopify://shop_images/Hamptons_1000x717_cfc71c2c-6918-4330-9c04-7f462ab9a435.jpg",
             "subheading": "",
             "title": "",
             "text": "",
             "link_label": "THE HAMPTONS +",
-            "link": "shopify:\/\/products\/out-east-candle",
+            "link": "shopify://products/out-east-candle",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_PPEcgy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/un-charted-image-2.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Uncharted Waters +",
+            "link": "shopify://products/uncharted-waters-9oz",
             "use_text_button": true,
             "block_link": ""
           }
@@ -81,11 +94,12 @@
         "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-1",
         "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-2",
         "e9926ef3-5471-4e98-a35e-8b85a7088bbc",
-        "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-0"
+        "template--19251812303147__69cb8dfa-7680-4b4f-bf8d-eeab3251f241-1685051310cdece2b8-0",
+        "image_PPEcgy"
       ],
       "settings": {
-        "columns_desktop": 4,
-        "section_width": "full-width-row-full",
+        "columns_desktop": 3,
+        "section_width": "full-width-row",
         "mobile_swipe": true,
         "image_ratio": "adapt",
         "content_position": "bottom-center",
@@ -116,7 +130,7 @@
             "promotion_collection": "",
             "promotion_position": 1,
             "promotion_width": "2",
-            "image": "shopify:\/\/shop_images\/Promotion_2000x1541_471912e9-f104-4d63-93ef-687f4afa9d75.jpg",
+            "image": "shopify://shop_images/Promotion_2000x1541_471912e9-f104-4d63-93ef-687f4afa9d75.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -133,8 +147,8 @@
       ],
       "settings": {
         "full_width": true,
-        "products_per_page": 4,
-        "columns_desktop": 3,
+        "products_per_page": 5,
+        "columns_desktop": 4,
         "pagination_type": "paginated",
         "enable_filtering": false,
         "enable_sorting": true,
@@ -147,7 +161,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<hr width=\"92%\"\/>"
+        "custom_liquid": "<hr width=\"92%\"/>"
       }
     },
     "845d262e-2868-41a4-93b5-d29984c50eab": {
@@ -157,36 +171,36 @@
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-NonToxic.png",
+            "image": "shopify://shop_images/Icon-NonToxic.png",
             "heading": "NON-TOXIC",
-            "text": "<p>By opting for non-toxic candles, you prioritize your health and the environment.<\/p>"
+            "text": "<p>By opting for non-toxic candles, you prioritize your health and the environment.</p>"
           }
         },
         "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-1": {
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-CrueltyFree.png",
+            "image": "shopify://shop_images/Icon-CrueltyFree.png",
             "heading": "CRUELTY FREE",
-            "text": "<p>Have a deep assurance that no animal life was sacrificed for the making of the product.<\/p>"
+            "text": "<p>Have a deep assurance that no animal life was sacrificed for the making of the product.</p>"
           }
         },
         "template--19251812303147__845d262e-2868-41a4-93b5-d29984c50eab-16850528346b813a15-2": {
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-Recycle.png",
+            "image": "shopify://shop_images/Icon-Recycle.png",
             "heading": "REPURPOSE & RECYCLE",
-            "text": "<p>Our brass vessels are designed to be repurposed to reduce waste and enhance durability.<\/p>"
+            "text": "<p>Our brass vessels are designed to be repurposed to reduce waste and enhance durability.</p>"
           }
         },
         "0a7ccfad-7f51-4c23-a025-7cb0a1669a39": {
           "type": "icon",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Icon-LastingBurn.png",
+            "image": "shopify://shop_images/Icon-LastingBurn.png",
             "heading": "LONG LASTING BURN",
-            "text": "<p>Our all natural soy wax creates a slow burning candle that lasts longer than a typical candle.<\/p>"
+            "text": "<p>Our all natural soy wax creates a slow burning candle that lasts longer than a typical candle.</p>"
           }
         }
       },
