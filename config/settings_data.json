@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_font": "tenor_sans_n4",
@@ -44,9 +44,10 @@
     "color_footer_bg": "#3a3837",
     "section_spacing_desktop": 90,
     "animations": false,
-    "social_facebook_link": "https://facebook.com/olivesandelephants",
+    "social_facebook_link": "",
     "social_instagram_link": "https://instagram.com/olivesandelephants",
     "social_pinterest_link": "https://www.pinterest.com/olivesandelephantsco/",
+    "social_tiktok_link": "https://www.tiktok.com/@olivesandelephants",
     "product_aspect_ratio": "adapt",
     "products_hover_images_count": 6,
     "show_products_vendor": false,
@@ -208,15 +209,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -374,9 +372,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Reinvent": {
       "heading_font": "hope_sans_n6",
@@ -550,9 +546,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Sunshine": {
       "heading_font": "neue_swift_n6",
@@ -706,9 +700,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Mono": {
       "heading_font": "basic_commercial_n7",
@@ -917,9 +909,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Glamour": {
       "heading_font": "chong_modern_n4",
@@ -1094,9 +1084,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   },
   "platform_customizations": {
